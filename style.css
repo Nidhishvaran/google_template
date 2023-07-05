@@ -209,7 +209,7 @@ svg{
 }
 .compiler_container{
     margin-top:2%;
-    border:2px solid aliceblue;
+    border:0.001px solid aliceblue;
     width:70%;
     position: absolute;
     color:rgb(42, 193, 77);
