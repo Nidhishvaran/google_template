@@ -235,13 +235,14 @@ svg{
 }
 #news_div{
     padding-top:9%;
+    position: inherit;
 }
 
 #stocks_div img{
     width:50px;
     display:flex;
     justify-content: center;
-    margin-top:240%;
+    margin-top:200%;
     float:left;
     padding-top:2%;
     margin-left:-230%;
@@ -260,23 +261,23 @@ svg{
 }
 #robert_div img{
     width:90px;
-    margin-top:90%;
+    margin-top:70%;
     position:fixed;
     margin-right:40%;
     padding-bottom:2%;
     margin-bottom: 20%;
     float:right;
-    margin-left:-80%;
-    padding-top:19%;
+    margin-left:-60%;
+    padding-top:14%;
     
 }
 #weather_div img{
     width:50px;
-    float:left;
+    float:right;
     display: flex;
     
-    margin-top:90%;
-    margin-left:-50%
+    margin-top:100%;
+    margin-left:-30%
 
     
 }
