@@ -8,6 +8,13 @@ input.addEventListener("keypress",(event) => {
 })
 
 function search(){
+    
     let value = document.getElementById('search_input').value
+    if(value.includes("http://")||value.includes("https://")){
+        window.open(value)
+        
+    }
+    else{
     window.location.href = "https://www.google.com/search?q="+value
+    }
 }
