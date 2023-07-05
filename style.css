@@ -1,0 +1,487 @@
+h1{
+    display:flex;
+    justify-content: center;
+}
+body{
+    padding:0;
+    margin:0;
+    background-color: black;
+    color:aliceblue;
+}
+iostream{
+    color:burlywood;
+    animation-name:iostream;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-duration:2s;
+    transition: ease-in-out;
+}
+hash{
+    color:brown;
+    animation-name:hash;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-duration:2s;
+    transition: ease-in-out;
+}
+@keyframes hash {
+     0%{
+        color:rgb(209, 78, 78);
+     }
+     
+}
+include{
+    color:skyblue;
+    animation-name:include;
+    animation-iteration-count:infinite;
+    animation-delay:0s;
+    animation-duration:2s;
+    transition: ease-in-out;
+
+}
+@keyframes include{
+    33.33%{
+        color:rgb(48, 172, 220);
+    }
+
+   
+}
+@keyframes iostream {
+    66.66%{
+        color:red;
+    }
+}
+#heading{
+    font:bolder;
+}
+.tools_container{
+    padding-top:2px;
+    border:.001px solid white;
+    width:35%;
+    margin-top: 2%;
+    margin-left:0.9%;
+    padding-left:5%;
+    
+}
+#tools_heading{
+    display:inline-flex;
+    justify-content: center;
+   
+    padding-left:2%;
+}
+
+@keyframes w_w {
+    0%{
+        color:blueviolet
+    }
+    
+}
+@keyframes w_e {
+    16.7%{
+        color:blueviolet
+    }
+    
+}
+@keyframes w_a {
+    33.4%{
+        color:blueviolet;
+    }
+    
+}
+.tools{
+    animation-name: tools_anime;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes tools_anime {
+    0%{
+        color: red;
+    }
+    25%{
+        color:blueviolet;
+    }
+    50%{
+        color:red;
+    }
+    75%{
+        color:blueviolet;
+    }
+    100%{
+        color:red;
+    }
+    
+}
+@keyframes w_t {
+    50.1%{
+        color: blueviolet;
+    }
+    
+}
+#w_w{
+    animation-name:w_w;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+}
+#w_e{
+    animation-name:w_e;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+}
+#w_a{
+    animation-name:w_a;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+}
+#w_t{
+    animation-name:w_t;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+}
+#w_h{
+    animation-name:w_h;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+}
+#w_e_2{
+    animation-name:w_e_2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+}
+#w_r{
+    animation-name:w_r;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+}
+svg{
+    color:aliceblue;
+}
+.widget_container{
+    
+    display:flex;
+    margin-top: 2%;
+    justify-content: center;
+    border:.001px solid aliceblue;
+    width:50%;
+    transform: translateY(-102.5%);
+    float:right;
+    position: relative;
+    margin-right:7%;
+    height:229px;
+    
+    
+}
+#heading_widget{
+    margin-left:200%;
+}
+#cpp_div img{
+    width:70px;
+    
+}
+#python_div img{
+    width:50px
+}
+
+#python_div{
+    position: absolute;
+    margin-top:60%;
+    margin-right:-40%;;
+}
+#cpp_div{
+    position:absolute;
+    margin-top:70px;
+    margin-right:80px;
+}
+#c_div img{
+    width:60px;
+}
+#c_div{
+    position:absolute;
+    margin-top: 90%;
+    margin-right: 20%;
+}
+.compiler_container{
+    margin-top:2%;
+    border:2px solid aliceblue;
+    width:70%;
+    position: absolute;
+    color:rgb(42, 193, 77);
+    display:flex;
+    justify-content: center;
+    margin-left:15%;
+    height:360px;
+}
+
+#more_div{
+    margin-top:120%;
+    margin-left: -14%;
+}
+
+#news_div img{
+    display:flex;
+    justify-content: center;
+    width:50px;
+    margin-top:170%;
+    float:left;
+    
+    
+}
+#news_div{
+    padding-top:9%;
+}
+
+#stocks_div img{
+    width:50px;
+    display:flex;
+    justify-content: center;
+    margin-top:240%;
+    float:left;
+    padding-top:2%;
+    margin-left:-230%;
+    
+    
+}
+#stocks_div{
+    padding-top:6%;
+
+}
+
+#robert_div img{
+    width:90px;
+    margin-top:200%;
+    
+}
+#robert_div{
+    position:absolute;
+    margin-right:40%;
+    padding-bottom:2%;
+    margin-bottom: 20%;
+    float:right;
+    margin-left:80%;
+}
+#weather_div img{
+    width:50px;
+    float:left;
+    display: flex;
+    
+    margin-top:90%;
+    margin-left:-50%
+
+    
+}
+#weather_div{
+    padding-top:7%;
+}
+.widget_container #heading_widget{
+    display:flex;
+    justify-content: center;
+    padding:2%;
+    margin-left:160%;
+   
+}
+
+@keyframes w_h {
+    76.8%{
+        color:blueviolet;
+    }
+    
+}
+
+@keyframes w_e_2 {
+    93.5%{
+    color:blueviolet;
+
+    }
+    
+}
+@keyframes w_r {
+    100%{
+        color: blueviolet;
+    }
+    
+}
+
+#search_input{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:aliceblue;
+    border:none;
+    width:60%;
+    transform: translateX(-5px);
+    border: 2px solid rgb(52, 48, 48);
+    border-top-left-radius: 13%;
+    border-bottom-right-radius: 13%;
+    padding-bottom:2px;
+}
+@keyframes d {
+    0%{
+        color: blueviolet;
+    }
+    
+}
+@keyframes e_1 {
+    7.14%{
+        color: blueviolet;
+    }
+    
+}
+@keyframes v {
+    14.28%{
+        color: blueviolet;
+    }
+    
+}
+@keyframes e_2 {
+   21.42%{
+        color: blueviolet;
+    }
+    
+}
+#d{
+    animation-name:d;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+}
+#e_1{
+    
+    animation-name:e_1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+}
+#v{
+    animation-name:v;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+}
+.hide{
+    visibility: hidden;
+}
+#e_2{
+    animation-name:e_2;
+    transition: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#l{
+    animation-name:l;
+    animation-duration: 3s;
+    transition: ease-in-out;
+    animation-iteration-count: infinite;
+}
+#o{
+    animation-name:o;
+    animation-duration: 3s;
+    transition: ease-in-out;
+    animation-iteration-count: infinite;
+}
+#p{
+    animation-name:p;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+}
+#e_3{
+    animation-name:e_3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+}
+#r{
+    animation-name:r;
+    transition: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#Search_input_div button{
+    margin-right:9%;
+}
+@keyframes l {
+    28.56%{
+        color: blueviolet;
+    }
+    
+}
+
+@keyframes o {
+    35.7%{
+        color: blueviolet;
+    }
+    
+}
+@keyframes p {
+    42.84%{
+        color: blueviolet;
+    }
+    
+}
+@keyframes e_3 {
+    49.98%{
+        color: blueviolet;
+    }
+    
+}
+@keyframes r {
+    56.14%{
+        color: blueviolet;
+    }
+    
+}
+#Search_input_div{
+    display:flex;
+    justify-content: center;
+}
+
+#stackoverflow_div img{
+    width:50px;   
+    padding-bottom:2%; 
+}
+
+#w3schools_div img{
+    width:40px;  
+    margin-left:50%;
+    padding-bottom:2%;
+}
+
+#github_div img{
+    width:40px; 
+    padding:2%;
+    padding-bottom:5%;
+}
+
+#Search_input_div button{
+    background-color: transparent;
+    border:none;
+   
+    
+}
+
+stream{
+    color:blue;
+    animation-name:stream;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-duration:2s;
+    transition: ease-in-out;
+}
+@keyframes stream{
+    99.99%{
+        color:rgb(49, 49, 242)
+    }
+}
+body{
+    overflow-X: hidden;
+    overflow-y: scroll;
+    
+}
