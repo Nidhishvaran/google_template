@@ -53,7 +53,6 @@ include{
 }
 #heading{
     font:bolder;
-    margin-right:9%;
 }
 .tools_container{
     padding-top:2px;
@@ -170,11 +169,11 @@ svg{
     margin-top: 2%;
     justify-content: center;
     border:.001px solid aliceblue;
-    width:38%;
+    width:50%;
     transform: translateY(-102.5%);
     float:right;
     position: relative;
-    margin-right:17%;
+    margin-right:7%;
     height:229px;
     
     
@@ -210,13 +209,13 @@ svg{
 }
 .compiler_container{
     margin-top:2%;
-    border:2px solid aliceblue;
+    border:0.001px solid aliceblue;
     width:70%;
     position: absolute;
     color:rgb(42, 193, 77);
     display:flex;
     justify-content: center;
-    margin-left:5%;
+    margin-left:15%;
     height:360px;
 }
 
@@ -235,7 +234,7 @@ svg{
     
 }
 #news_div{
-    padding-top:0%;
+    padding-top:9%;
 }
 
 #stocks_div img{
@@ -256,24 +255,24 @@ svg{
 
 #robert_div img{
     width:90px;
-    margin-top:90%;
-    position:fixed;
+    margin-top:200%;
+    
+}
+#robert_div{
+    position:absolute;
     margin-right:40%;
     padding-bottom:2%;
     margin-bottom: 20%;
     float:right;
-    margin-left:-80%;
-    padding-top:19%;
-    
+    margin-left:80%;
 }
-
 #weather_div img{
     width:50px;
     float:left;
     display: flex;
     
     margin-top:90%;
-    margin-left:-40%
+    margin-left:-50%
 
     
 }
